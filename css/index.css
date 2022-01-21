@@ -68,3 +68,8 @@ textarea {
     margin-top: 5px;
     margin-bottom: 10px;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
