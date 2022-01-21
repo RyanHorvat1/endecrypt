@@ -13,6 +13,7 @@ body {
     box-sizing: border-box;
     width: auto;
     height: auto;
+    display: block;
     background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).webp");
     background-position: center;
     background-repeat: no-repeat;
