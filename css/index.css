@@ -27,6 +27,7 @@ nav {
     opacity: 50%;
     padding-top: 10px;
     padding-left: 10px;
+    box-sizing: border-box;
 }
 
 div {
