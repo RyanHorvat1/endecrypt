@@ -1,0 +1,42 @@
+@media only screen and (min-width: 769px) {
+    .col {
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+        padding-left: 5%;
+    }
+    .mar-ls {
+        margin-left: -2%;
+    }
+    textarea {
+        height: 200px;
+    }
+    .btn-2 {
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .pad-sm {
+        box-sizing: border-box;
+        padding-left: 8%;
+    }
+    .col {
+        width: 100%;
+    }
+    textarea {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) and (max-height: 700px) {
+    * {
+        font-size: 10vw;
+    }
+    textarea {
+        height: 50px;
+    }
+    .btn {
+        padding: 8px 16px;
+    }
+}
