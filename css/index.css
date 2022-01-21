@@ -81,6 +81,9 @@ div {
     textarea {
         height: 50px;
     }
+    .btn {
+        padding: 8px 16px;
+    }
 }
 
 textarea {
