@@ -77,6 +77,12 @@ div {
     }
 }
 
+@media screen and (max-width: 768px) and (max-height: 500px) {
+    textarea {
+        height: 50px;
+    }
+}
+
 textarea {
     width: 90%;
     box-sizing: border-box;
