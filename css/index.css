@@ -131,8 +131,8 @@ textarea {
 }
 
 @media screen and (max-width: 768px) and (max-height: 700px) {
-    body {
-        font-size: 2vw;
+    * {
+        font-size: 10vw;
     }
     textarea {
         height: 50px;
