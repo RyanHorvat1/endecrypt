@@ -45,5 +45,7 @@
     }
     footer {
         display: block;
+        position: absolute;
+        top: 93%;
     }
 }
