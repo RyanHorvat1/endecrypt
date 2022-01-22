@@ -44,6 +44,6 @@
         font-size: 12px;
     }
     footer {
-        position: absolute;
+        display: block;
     }
 }
