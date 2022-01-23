@@ -58,6 +58,7 @@ textarea {
     font-size: 16px;
     border: none;
     overflow: auto;
+    text-overflow: ellipsis;
     outline: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
