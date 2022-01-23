@@ -16,7 +16,6 @@ function decrypt() {
         cadena = cadena.replace(imes, 'i');
         cadena = cadena.replace(enter, 'e');
         output.textContent = cadena;
-        console.log(cadena);
         /*let origin = [e, i, a, o, u];
         let replace = ['enter', 'imes', 'ai', 'ober', 'ufat'];
         origin.forEach(function(i) {

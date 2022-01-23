@@ -4,5 +4,4 @@ const output = document.getElementById("output");
 /*CAPTURA DE TEXTO EN EL INPUT*/
 input.addEventListener("input", function() {
     input.value = input.value.toLowerCase();
-
 });

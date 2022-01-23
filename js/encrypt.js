@@ -16,7 +16,6 @@ function encrypt() {
         cadena = cadena.replace(o, 'ober');
         cadena = cadena.replace(u, 'ufat');
         output.textContent = cadena;
-        console.log(cadena);
         /*let origin = [e, i, a, o, u];
         let replace = ['enter', 'imes', 'ai', 'ober', 'ufat'];
         origin.forEach(function(i) {

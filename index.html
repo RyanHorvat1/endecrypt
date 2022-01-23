@@ -35,22 +35,25 @@
     <!-- SECCIÓN CON EL INPUT Y OUTPUT -->
     <div class="pad-sm">
         <div class="col pad">
-            <textarea type="text" id="input" class="input" placeholder="Ingrese el texto aquí" onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122) || event.charCode == 13 || event.charCode == 32 || event.charCode == 164 || event.charCode == 165)"></textarea>
+            <textarea type="text" id="input" class="input" placeholder="Ingrese el texto aquí" onkeypress="return ((event.keyCode >= 65 && event.keyCode <= 90) || (event.keyCode >= 97 && event.keyCode <= 122) || event.keyCode == 13 || event.keyCode == 32 || event.keyCode == 164 || event.keyCode == 165)"></textarea>
             <br>
             <button id="button-encrypt" class="btn btn-danger">
-            <i class="fas fa-lock"></i> Encriptar
-        </button>
+                <i class="fas fa-lock"></i> Encriptar
+            </button>
             <button id="button-decrypt" class="btn btn-2 btn-danger">
-            <i class="fas fa-unlock"></i> Desencriptar
-        </button>
+                <i class="fas fa-unlock"></i> Desencriptar
+            </button>
         </div>
 
         <div class="col mar-ls">
             <textarea type="text" id="output" class="input output" placeholder="Aquí aparecerá el resultado" readonly></textarea>
             <br>
             <button id="button-copy" class="btn btn-danger">
-            <i class="fas fa-copy"></i> Copiar
-        </button>
+                <i class="fas fa-copy"></i> Copiar al Portapapeles
+            </button>
+            <button id="button-copy-up" class="btn btn-danger">
+                <i class="fas fa-angle-double-up"></i> Copiar Arriba
+            </button>
         </div>
     </div>
 
@@ -63,6 +66,7 @@
     <script src="js/encrypt.js"></script>
     <script src="js/decrypt.js"></script>
     <script src="js/copy.js"></script>
+    <script src="js/copy-up.js"></script>
     <script src="https://kit.fontawesome.com/a6872e9a39.js" crossorigin="anonymous"></script>
 </body>
 
