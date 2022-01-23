@@ -1,30 +1,33 @@
 /*DEFINICIÓN DE CONSTANTES Y VARIABLES*/
-
-const input = document.getElementById("input");
 const btnEncrypt = document.getElementById("button-encrypt");
-const output = document.getElementById("output");
-/* DEFINICIÓN DE FUNCIONES*/
+const a = /a+/g;
+const e = /e+/g;
+const i = /i+/g;
+const o = /o+/g;
+const u = /u+/g;
 
 /* DEFINICIÓN DE LA FUNCIÓN DE ENCRIPTADO*/
-
 function encrypt() {
     if (input.value.length > 0) {
-        console.log("Encriptado");
+        let cadena = input.value;
+        cadena = cadena.replace(e, 'enter');
+        cadena = cadena.replace(i, 'imes');
+        cadena = cadena.replace(a, 'ai');
+        cadena = cadena.replace(o, 'ober');
+        cadena = cadena.replace(u, 'ufat');
+        output.textContent = cadena;
+        console.log(cadena);
+        /*let origin = [e, i, a, o, u];
+        let replace = ['enter', 'imes', 'ai', 'ober', 'ufat'];
+        origin.forEach(function(i) {
+        cadena = cadena.replace(origin[i], replace[i]);*/
+
     } else {
         alert("No se puede encriptar un mensaje vacío");
     }
 }
 
-/*CAPTURA DE TEXTO EN EL INPUT*/
-
-input.addEventListener("input", function() {
-    console.log(input.value);
-});
-
 /*CAPTURA DEL CLICK EN EL BOTÓN ENCRIPTAR"*/
-
 btnEncrypt.addEventListener("click", function() {
-    console.log("click");
-    output.textContent = input.value;
     encrypt();
 });
