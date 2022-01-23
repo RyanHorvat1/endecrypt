@@ -58,7 +58,6 @@ textarea {
     font-size: 16px;
     border: none;
     overflow: auto;
-    text-overflow: ellipsis;
     outline: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -130,9 +129,9 @@ textarea {
 }
 
 footer {
-    position: relative;
     width: 100%;
     bottom: 0;
+    padding-top: 50%;
     color: white;
     align-content: center;
     text-align: center;
