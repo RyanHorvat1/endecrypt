@@ -32,9 +32,8 @@ nav {
     box-sizing: border-box;
 }
 
-.alura {
-    padding-top: -20px;
-    margin-top: -2px;
+.logo {
+    height: 36px;
 }
 
 .title,
